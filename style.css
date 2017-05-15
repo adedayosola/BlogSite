@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+}
+
+/*Stylesheet for Blog of Life*/
+#nav {
+
+    display: flex;
+    background-color: black;
+   	padding: 20px;
+   	margin-bottom: 20px;
+ 	width:98.5%;
+ 	height: 20px;
+ 	justify-content: space-between;
+
+}
+#outer_container{
+	width:1200px
+	height:920px;
+}
+
+.nav{
+	text-decoration: none;
+	font-weight: 10px;
+
+}
+
+body{
+	/*background-image: url("images/heero.jpg");*/
+	background-image: url("images/skull.jpg");
+	width: 100%;
+	height: 100%;
+}
+
+#div1{
+	background-color: ghostwhite;
+	height: 95%;
+	width: 50%;
+	border: 1px solid red;
+
+}
+.formheading{
+	font-weight: bold;
+	color: red;
+
+}
+
+.formContainer{
+	display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    padding: 20px;
+    width: 90%;
+    height: 400px;
+
+    margin: 0 auto;
+}
+.postBlogContainer{
+	border: 1px solid red;
+	background-color: black;
+	width: 40%;
+	height: 95%;
+	padding: 10px;
+	
+}
+#footer_div{
+	display: flex;
+	background-color: black;
+	margin-top: 20px;
+	height: 100px;
+	justify-content: space-between;
+	padding-top: 20px;
+	padding-left: 20px;
+	width: 100%;
+}
+
+#text{
+	width: 80%;
+	height: 200px;
+}
+#name{
+	width: 80%;
+
+}
